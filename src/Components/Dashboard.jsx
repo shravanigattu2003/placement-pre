@@ -16,11 +16,15 @@ function DashBoard(){
 
     }
 
+    const dash={
+        textAlign : "center"
+    }
+
     
     return(
         <>
             <div>
-                <h3>Dashboard</h3>
+                <h3 style={dash}>Dashboard</h3>
                 {users.map((user)=>(
                 <SimpleUser
                     key={user.id}

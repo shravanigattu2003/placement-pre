@@ -7,9 +7,11 @@ import DashBoard from "./Components/Dashboard";
 
 function App() {
   return(
-      //  <Productlayout/>
-      // <ToggleVisibility/>
-      <DashBoard/>
+    <>
+       <Productlayout/>
+       <ToggleVisibility/>
+       <DashBoard/>
+       </>
     )
 
 
